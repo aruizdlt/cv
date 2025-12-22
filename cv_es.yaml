@@ -1,0 +1,103 @@
+cv:
+  name: Tu Nombre
+  location: Ciudad, País
+  email: tu.email@ejemplo.com
+  website: https://tuwebsite.com
+  social_networks:
+    - network: LinkedIn
+      username: tu-usuario
+    - network: GitHub
+      username: tu-github
+
+  sections:
+    Resumen:
+      - Ingeniero de Software con más de X años de experiencia en desarrollo full-stack. Especializado en tecnologías web modernas y arquitecturas escalables.
+
+    Experiencia Profesional:
+      - company: Nombre de la Empresa
+        position: Desarrollador Senior
+        location: Madrid, España
+        start_date: 2020-01
+        end_date: present
+        highlights:
+          - Lideré el desarrollo de una plataforma que incrementó la eficiencia en un 40%
+          - Implementé arquitectura de microservicios usando Docker y Kubernetes
+          - Mentoricé a un equipo de 5 desarrolladores junior
+
+      - company: Otra Empresa
+        position: Desarrollador Full-Stack
+        location: Barcelona, España
+        start_date: 2018-06
+        end_date: 2019-12
+        highlights:
+          - Desarrollé APIs RESTful con Node.js y Express
+          - Creé interfaces de usuario responsivas con React
+          - Optimicé consultas de base de datos reduciendo tiempos de carga en 60%
+
+    Educación:
+      - institution: Universidad Politécnica
+        area: Ingeniería Informática
+        degree: Grado
+        start_date: 2014-09
+        end_date: 2018-06
+        location: Madrid, España
+        highlights:
+          - "Promedio: 8.5/10"
+          - "Proyecto final: Sistema de gestión empresarial"
+
+    Habilidades:
+      - label: Lenguajes de Programación
+        details: Python, JavaScript, TypeScript, Java, SQL
+      - label: Frameworks y Librerías
+        details: React, Node.js, Django, Spring Boot, Express
+      - label: DevOps y Herramientas
+        details: Docker, Kubernetes, Git, CI/CD, AWS, Azure
+      - label: Idiomas
+        details: Español (Nativo), Inglés (Fluido - C1)
+
+    Proyectos:
+      - name: Sistema de E-commerce
+        date: 2022
+        highlights:
+          - Desarrollé una plataforma completa de comercio electrónico
+          - Stack utilizado - React, Node.js, MongoDB, Stripe
+          - Más de 10,000 usuarios activos
+
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+  typography:
+    font_family: Source Sans 3
+
+locale:
+  language: spanish
+  month: mes
+  months: meses
+  year: año
+  years: años
+  present: presente
+  month_abbreviations:
+    - Ene
+    - Feb
+    - Mar
+    - Abr
+    - May
+    - Jun
+    - Jul
+    - Ago
+    - Sep
+    - Oct
+    - Nov
+    - Dic
+
+rendercv_settings:
+  date: 2024-12-22
